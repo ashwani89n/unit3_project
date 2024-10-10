@@ -27,7 +27,7 @@ GIF created with Licecap Tool
 ## Postgres DB
 
 <img src='https://github.com/ashwani89n/unit3_project/blob/main/Virtual_Community_1.png' title='Postgres Database' width='' />
-<img src='https://github.com/ashwani89n/unit3_project/blob/main/Virtual_Community_3.png' title='Postgres Database' width='' />
+<img src='https://github.com/ashwani89n/unit3_project/blob/main/Virtual_Community_2.png' title='Postgres Database' width='' />
 <img src='https://github.com/ashwani89n/unit3_project/blob/main/Virtual_Community_3.png' title='Postgres Database' width='' />
 
 ## License
