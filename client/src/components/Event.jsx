@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react'
+import EventsAPI from '../../services/EventsAPI'
 import '../css/Event.css'
+import { dates} from './../../../server/util/date.js'
 
 const Event = (props) => {
 

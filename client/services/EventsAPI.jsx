@@ -13,7 +13,7 @@ const getAllEvents = async () => {
     }
 };
 
-const getEventById = async (id) => {
+const getEventsById = async (id) => {
     try {
         const response = await fetch(`${API_BASE_URL}/events/${id}`);
         if (!response.ok) {
@@ -26,4 +26,4 @@ const getEventById = async (id) => {
     }
 };
 
-export default { getAllEvents, getEventById };
+export default { getAllEvents, getEventsById };
