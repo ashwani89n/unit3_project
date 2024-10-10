@@ -20,15 +20,15 @@ The following **required** functionality is completed:
 
 Here's a walkthrough of implemented features:
 
-<img src='https://github.com/ashwani89n/series_spotlight/blob/main/Ash_WEB103_Virtual_Community.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/ashwani89n/unit3_project/blob/main/Ash_WEB103_Virtual_Community.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with Licecap Tool
 
 ## Postgres DB
 
-<img src='https://github.com/ashwani89n/series_spotlight/blob/main/Virtual_Community_1.png' title='Postgres Database' width='' />
-<img src='https://github.com/ashwani89n/series_spotlight/blob/main/Virtual_Community_3.png' title='Postgres Database' width='' />
-<img src='https://github.com/ashwani89n/series_spotlight/blob/main/Virtual_Community_3.png' title='Postgres Database' width='' />
+<img src='https://github.com/ashwani89n/unit3_project/blob/main/Virtual_Community_1.png' title='Postgres Database' width='' />
+<img src='https://github.com/ashwani89n/unit3_project/blob/main/Virtual_Community_3.png' title='Postgres Database' width='' />
+<img src='https://github.com/ashwani89n/unit3_project/blob/main/Virtual_Community_3.png' title='Postgres Database' width='' />
 
 ## License
 
