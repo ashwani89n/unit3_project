@@ -1,11 +1,69 @@
 import React, { useState, useEffect } from 'react'
 import Event from '../components/Event'
 import '../css/LocationEvents.css'
+import LocationsAPI from '../../services/LocationsAPI'
+import EventsAPI from '../../services/EventsAPI'
+
 
 const LocationEvents = ({index}) => {
     const [location, setLocation] = useState([])
     const [events, setEvents] = useState([])
 
+    useEffect(() => {
+        (async () => {
+            try {
+                const locationsData = await LocationsAPI.getLocationById(index);
+                console.log('Fetched locations data:', locationsData);
+                setLocation(locationsData);
+            } catch (error) {
+                console.error('Error fetching location:', error);
+            }
+        })();
+    }, [index]);
+
+    useEffect(() => {
+        (async () => {
+            try {
+                const eventsData = await EventsAPI.getEventsById(index);
+                console.log('Fetched events data:', eventsData); 
+                if (Array.isArray(eventsData)) {
+                    setEvents(eventsData);
+                } else {
+                    console.warn('Expected an array but got:', eventsData);
+                }
+            } catch (error) {
+                console.error('Error fetching events:', error);
+            }
+        })();
+    }, [index]);
+
+    // useEffect(() => {
+    //     (async () => {
+    //         try {
+    //             const locationsData = await LocationsAPI.getLocationById(index);
+    //             console.log('Fetched locations data2:', locationsData);
+    //             setLocation(locationsData);
+    //         }
+    //         catch (error) {
+    //             throw error
+    //         }
+    //     }) ()
+    // }, [])
+
+    // useEffect(() => {
+    //     (async () => {
+    //         try {
+    //             const eventsData = await EventsAPI.getEventsById(index);
+    //             setEvents(eventsData);
+    //             console.log("data:" , eventsData);
+    //         }
+    //         catch (error) {
+    //             throw error
+    //         }
+    //     }) ()
+    // }, [])
+
+    
     return (
         <div className='location-events'>
             <header>

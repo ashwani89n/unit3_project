@@ -4,6 +4,7 @@ import favicon from 'serve-favicon'
 import dotenv from 'dotenv'
 import cors from 'cors'
 import './config/database.js'
+import './config/dotenv.js'
 
 // import the router from your routes file
 import eventsRoutes from './routes/events.js';

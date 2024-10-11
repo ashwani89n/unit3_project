@@ -11,4 +11,8 @@ const eventsRoutes = express.Router()
 
 eventsRoutes.get('/events', EventsController.getEvents)
 
-export default eventsRoutes;
+eventsRoutes.get('/events/locations/:id', EventsController.getEventsById);
+
+eventsRoutes.get('/events/:id', EventsController.getEventsByEventsId);
+
+export default eventsRoutes;    

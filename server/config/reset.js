@@ -1,5 +1,3 @@
-//import { pool } from './database.js';
-//import './dotenv.js';
 import https from 'https';
 import './dotenv.js'
 import pg from 'pg'

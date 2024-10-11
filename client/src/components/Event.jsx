@@ -6,13 +6,14 @@ import { dates} from './../../../server/util/date.js'
 const Event = (props) => {
 
     const [event, setEvent] = useState([])
-    const [time, setTime] = useState([])
+    const [time, setTime] = useState([])    
     const [remaining, setRemaining] = useState([])
-
+    
     useEffect(() => {
         (async () => {
             try {
-                const eventData = await EventsAPI.getEventsById(props.id)
+
+                const eventData = await EventsAPI.getEventsByEventsId(props.id)
                 setEvent(eventData)
             }
             catch (error) {
