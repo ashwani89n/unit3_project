@@ -3,7 +3,7 @@
 Submitted by: Ashwani Balakrishnan Neminimadathil
 
 Virtual community space is an interactive interface that allows users to explore events by location.
-Time spent: 6 hours spent in total
+Time spent: 8 hours spent in total
 
 ## Required Features
 
