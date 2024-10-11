@@ -13,8 +13,8 @@ The following **required** functionality is completed:
 * [x] The web app is connected to a PostgreSQL database, with an appropriately structured events table.
 * [x] The web app displays the title of the app.
 * [x] A visual interface allows the user to select a location they would like to view.
-* [ ] Clicking on a location shows a list of all items from the events table that corresponds to that location.
-* [ ] Each location detail page should have its own unique URL.
+* [x] Clicking on a location shows a list of all items from the events table that corresponds to that location.
+* [x] Each location detail page should have its own unique URL.
 
 ## Video Walkthrough
 
